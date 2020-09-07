@@ -49,11 +49,28 @@ table {
 
 /* end of reset */
 
+@font-face {
+	font-family: "roboto-light";
+	src: url("/css/fonts/roboto/Roboto-Light.ttf");
+	font-family: "roboto-medium";
+	src: url(/css/fonts/roboto/Roboto-Medium.ttf);
+	font-family: "roboto-thin";
+	src: url(/css/fonts/roboto/Roboto-Thinitalic.ttf);
+}
+
 h1 {
   background-color: blue;
+  font-family: 'roboto-light', sans-serif;
   text-align: center;
   padding: 1%;
 }
+
+h3 {
+	background-color: blue;
+	font-family: 'roboto-thin', sans-serif;
+	text-align: center;
+	padding: 1%;
+  }
 
 .header {
   background-color: rgb(206, 69, 206);
@@ -63,5 +80,6 @@ h1 {
 
 .content {
   background-color: darkseagreen;
+  font-family: 'roboto-medium', sans-serif;
 
 }
